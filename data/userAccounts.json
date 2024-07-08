@@ -1,0 +1,24 @@
+{
+  "users": {
+    "test@example.com": {
+      "password": "$2b$10$pcvqUrHo4ImuPtX./9WQFejA86QVXmJRl.AyvzKhjJ6BF.s.ntuOm",
+      "userId": "0e6577d9-296f-4c24-b823-aaf42d65a7ca"
+    },
+    "test@examaple.com": {
+      "password": "$2b$10$DfTV1gbt.kZggyBpg5d.RunaWnbzbXQb..NWyOYVBzLclKvuDAygG",
+      "userId": "24b1b075-7f9f-4d85-a58b-4f04b8d13cf2"
+    },
+    "test@exaasdmaple.com": {
+      "password": "$2b$10$axU02OYyrFyKRoqskRwIK.oVXUfK5.iwBKMzSeyz0w810PkhwpoD.",
+      "userId": "8c6eba5c-e7e2-40c7-9e5c-2a5f7ae2c0b0"
+    },
+    "a": {
+      "password": "$2b$10$vuEO0iJXE4oFg49llBrXWuzF4MsP9jBNoUsk4IeDghdRD93tbzlxa",
+      "userId": "0defb439-c270-41cd-acf6-68deb25535af"
+    },
+    "gypsy@phyoxent.com": {
+      "password": "$2b$10$oW2wdUr0pZsscKE0pFtFn.CDnxkpXYQVWEa1KtUMltm27rqJmOWr.",
+      "userId": "32cc5a40-c3d3-4f22-a5ff-d07380c28082"
+    }
+  }
+}

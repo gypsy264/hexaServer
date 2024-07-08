@@ -1,0 +1,39 @@
+{
+  "userData": {
+    "0e6577d9-296f-4c24-b823-aaf42d65a7ca": {
+      "nickname": "testUser",
+      "level": 1,
+      "userPriority": 0,
+      "version": 1,
+      "xp": 0
+    },
+    "24b1b075-7f9f-4d85-a58b-4f04b8d13cf2": {
+      "nickname": "teaastUser",
+      "level": 1,
+      "userPriority": 0,
+      "version": 1,
+      "xp": 0
+    },
+    "8c6eba5c-e7e2-40c7-9e5c-2a5f7ae2c0b0": {
+      "nickname": "tasdeaastUser",
+      "level": 1,
+      "userPriority": 0,
+      "version": 1,
+      "xp": 0
+    },
+    "0defb439-c270-41cd-acf6-68deb25535af": {
+      "nickname": "a",
+      "level": 1,
+      "userPriority": 0,
+      "version": 1,
+      "xp": 0
+    },
+    "32cc5a40-c3d3-4f22-a5ff-d07380c28082": {
+      "nickname": "Gypsy",
+      "level": 50,
+      "userPriority": 0,
+      "version": 1,
+      "xp": 100
+    }
+  }
+}
