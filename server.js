@@ -8,13 +8,16 @@ const WebSocket = require('ws');
 const chokidar = require('chokidar');
 const { v4: uuidv4 } = require('uuid');
 const bcrypt = require('bcrypt');
-
-const { loadUserData, loadUserAccounts, broadcastUserData } = require('./utils/loadData');
+const { loadUserData, loadUserAccounts } = require('./utils/loadData');
+const topboardRoutes = require('./routes/topboard');
 
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 const port = 3000;
+
+// Assign WebSocket server to global variable for broadcasting
+global.wss = wss;
 
 app.use(bodyParser.json());
 
@@ -24,7 +27,6 @@ const storage = multer.diskStorage({
         cb(null, 'uploads/');
     },
     filename: function (req, file, cb) {
-        // Ensure we only use the correct extension once
         cb(null, req.params.userId + path.extname(file.originalname));
     }
 });
@@ -35,7 +37,10 @@ loadUserData(wss);
 loadUserAccounts();
 
 // Watch for changes to data files and reload
-chokidar.watch('./data/userData.json').on('change', () => loadUserData(wss));
+chokidar.watch('./data/userData.json').on('change', () => {
+    loadUserData(wss);
+    topboardRoutes.loadUserData();
+});
 chokidar.watch('./data/userAccounts.json').on('change', loadUserAccounts);
 
 // WebSocket broadcast on connection
@@ -54,7 +59,7 @@ app.post('/uploadProfilePicture/:userId', upload.single('profilePicture'), (req,
 // Endpoint for retrieving profile pictures
 app.get('/profilePicture/:userId', (req, res) => {
     const userId = req.params.userId;
-    const filePath = path.join(__dirname, 'uploads', userId);
+    const filePath = path.join(__dirname, 'uploads', userId + '.png');
     fs.access(filePath, fs.constants.F_OK, (err) => {
         if (err) {
             console.error('Error sending file:', err);
@@ -72,6 +77,7 @@ const accountRoutes = require('./routes/account');
 // Use routes
 app.use('/user', userRoutes);
 app.use('/account', accountRoutes);
+app.use('/topboard', topboardRoutes.router); // Add this line
 
 server.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);

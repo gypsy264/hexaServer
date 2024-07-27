@@ -1,5 +1,17 @@
 {
   "users": {
+    "1": {
+      "password": "$2b$10$7MHqd3QMuwe8ucABfU91HuT27UPmw3wiP5pJGt3UOK0M.XJe3PZia",
+      "userId": "0ee4574a-4c70-4697-b46e-410f30961f89"
+    },
+    "1523": {
+      "password": "$2b$10$Iw5JZyMcnQ/gVfTDcojhG.ViawcSbE8tArr6EMkEQkDh5E9ED97zK",
+      "userId": "a668f812-13d5-4b8e-a50e-12b4ee7ba6dd"
+    },
+    "123123": {
+      "password": "$2b$10$B3PvPi8aG0xZ8ctVeSKyFOjbtlP2irnCMIyyJwc1yOK9RsVkay2CC",
+      "userId": "69458f7a-d8c3-40b4-bd63-0612fa8cbffe"
+    },
     "test@example.com": {
       "password": "$2b$10$pcvqUrHo4ImuPtX./9WQFejA86QVXmJRl.AyvzKhjJ6BF.s.ntuOm",
       "userId": "0e6577d9-296f-4c24-b823-aaf42d65a7ca"
@@ -19,6 +31,54 @@
     "gypsy@phyoxent.com": {
       "password": "$2b$10$oW2wdUr0pZsscKE0pFtFn.CDnxkpXYQVWEa1KtUMltm27rqJmOWr.",
       "userId": "32cc5a40-c3d3-4f22-a5ff-d07380c28082"
+    },
+    "asd": {
+      "password": "$2b$10$XPrFndxfo8cvd/mjNkDF6.Roe9RPGZzZFtBdQd4ZsySX/m7WWe3aC",
+      "userId": "96a636a9-8cae-4569-943b-c006ea40658f"
+    },
+    "asdasdasd": {
+      "password": "$2b$10$KVVX29OtwnrDenUTr3s5AeCssJ1uhUKocz9nkRu8gP4f3yHsf9F6O",
+      "userId": "96900bba-6df5-476d-bb87-e4ffcba41b3b"
+    },
+    "aasdsdasdasd": {
+      "password": "$2b$10$e8XRDO9D33CQOc.rXn4/WeWxd8bfwqilWj5K6oId/x22kDfm6bsIu",
+      "userId": "14dee126-435c-4a22-8b5c-2d441a6d5aa8"
+    },
+    "asdasd": {
+      "password": "$2b$10$UhGo6ovDgVhMZTxh4rEmY.lDF4ED.soCgBRJuCtSE8BAayXVVyyyu",
+      "userId": "cb5023d1-eb73-4579-bc5d-4f8260c98e18"
+    },
+    "testmen@gmail.com": {
+      "password": "$2b$10$58gasSYL.azDoMXWvMUu9udFBFFHpz.4DLh5z8PmN6r3RroduAh1W",
+      "userId": "995c0327-bd93-4649-b674-13662bd2d755"
+    },
+    "emycanto2008@gmail.com": {
+      "password": "$2b$10$y8Y0tLCHZ/BfUupZw6wVROO/6l.wLTojSUej/KC9m93cxyDaYg3Ha",
+      "userId": "44730af3-e23a-4f15-afa3-3b9117d36b75"
+    },
+    "asda": {
+      "password": "$2b$10$AF9qf5EjnyIoBLSmZZ1eJel8qle6zhP4ni49AJ2H.9MNh2Ono6d3G",
+      "userId": "2a435d2b-ea0b-461d-a38f-459ae66560d2"
+    },
+    "ap@ap.com": {
+      "password": "$2b$10$65b5kHZWgwSULm8R7Gnp1ul2r4fV7szpxYwKiz1fPPPBKdDFpsf0q",
+      "userId": "c8692467-968a-4f29-ac07-12b40bafc2b0"
+    },
+    "aasdasd@asd.com": {
+      "password": "$2b$10$SWzdOWS72pTLiTZ8EFl3xe7JcFbDCXK8.upHdDHKcbsnGhyyV2C8y",
+      "userId": "7ca7418c-ce21-43db-9adb-2fb00d0d764d"
+    },
+    "gypsyisdev@dev.com": {
+      "password": "$2b$10$q/eIhlIkROOd0nDnCycDlurHE7dCpCZttSQBFI0BBs7JTpiUdpPPm",
+      "userId": "febfaa8e-d7f8-408e-9522-562be7ec0b5a"
+    },
+    "": {
+      "password": "$2b$10$MXcFbpGtnqMaLhezKpQbYeMrML4NtlyejfAiuqKiQTGI0j.Jet9fK",
+      "userId": "b9f3dcc8-521e-45e6-a81e-8371248f2c0b"
+    },
+    "emy_canto@icloud.com": {
+      "password": "$2b$10$aspjFRI4T0d6PPktYL1o8Op02kPp.ikUTykmzgUnbsF.OiCcNXGbm",
+      "userId": "65b78e7a-3179-4e30-bfa8-c31ac2e02802"
     }
   }
 }
